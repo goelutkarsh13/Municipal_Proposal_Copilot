@@ -230,3 +230,4 @@ Returns the persisted session state, including the stored profile and any last g
 
 The service validates narrative lengths, required grant term usage, bullet counts, and budget contingency requirements. Failed validations trigger one automatic revision attempt before returning issues to the client.
 
+NOTE: Model files and local document datasets are excluded due to size. Please contact for access.
