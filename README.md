@@ -1,5 +1,5 @@
 # Municipal_Proposal_Copilot
-Developed an AI-powered assistant that drafts infrastructure grant proposals using local government data and policy documents. Built with Python (FastAPI), LangChain, FAISS, and sentence-transformers to ensure factual, policy-aligned, and efficient proposal generation.
+Developed an AI-powered assistant that drafts infrastructure grant proposals using local government data and policy documents. Built with Python (FastAPI), LandFlow, FAISS, and sentence-transformers to ensure factual, policy-aligned, and efficient proposal generation.
 [README.md](https://github.com/user-attachments/files/23532433/README.md)
 # Municipal Proposal Copilot Backend
 
@@ -43,7 +43,7 @@ The API now builds the FAISS retrieval index automatically on startup using the 
   python scripts/build_index.py --corpus corpus --index app/faiss_index
   ```
 
-The rebuild process chunks the corpus with LangChain's `RecursiveCharacterTextSplitter`, embeds passages with `sentence-transformers/all-MiniLM-L6-v2`, and writes a FAISS index to `app/faiss_index/`.
+The rebuild process chunks the corpus with LandFlow's `RecursiveCharacterTextSplitter`, embeds passages with `sentence-transformers/all-MiniLM-L6-v2`, and writes a FAISS index to `app/faiss_index/`.
 
 ## Running the API
 
